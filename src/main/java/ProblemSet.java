@@ -27,12 +27,14 @@ public class ProblemSet {
                 if (roundCount > 0) {
                     roundCountInvalid = false;
                     s.nextLine();
-                } else {
+                }
+				else {
                     System.out.print("\n" + "That was an invalid input! " + "\n" + 
                                             "Input how many rounds would you like to play: ");
                     s.nextLine();
                 }
-            } else {
+            }
+			else {
                 System.out.print("\n" + "That was an invalid input! " + "\n" + 
                                         "Input how many rounds would you like to play: ");
                 s.nextLine();
@@ -62,7 +64,6 @@ public class ProblemSet {
             if (!separatorFound) {
                 System.out.print("That was an invalid input!" + "\n" + "What Range would you like to play between (#-#)? ");
             }
-            
             else {
                 // Splitting the left and right parts of range input
                 String left  = userRangeInput.substring(0, separatorIndex);
