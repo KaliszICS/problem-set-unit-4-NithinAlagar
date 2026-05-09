@@ -9,7 +9,10 @@
         * Date Last Modified: April 27th, 2026
 
         */
-public class ProblemSet {
+
+import java.util.*;
+
+public class HighLowGame {
 	public static void main(String args[]) {
         Random ran = new Random();
         Scanner s = new Scanner(System.in);

@@ -1,0 +1,14 @@
+K(30%): 100
+I(30%): 94
+C(10%): 100
+A(30%): 99
+97.9%
+
+Great work Nithin.  I would advise a couple things for the future.  Mostly just about coding style.
+Make sure to check all your outputs (Even when it has 2 numbers is missing it's brackets).
+Strings already have methods to help you find characters so you don't have to search with a for loop.  Could have made your life a bit easier.
+You can also take advantage of existing functions to do things for you (ceil and floor for instance so you don't need if statements)
+Since the brackets never go anywhere in the menu you can also just make your menu variable hold the "number" or "number to number"
+I would suggest breaking your code up a little bit more to avoid excessive nesting by using functions for sections that have a small specific purpose.
+
+Otherwise great work!
